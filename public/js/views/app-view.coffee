@@ -126,8 +126,8 @@ define [
 
       # Resize "select" elements according to selected options
       # http://stackoverflow.com/questions/20091481
-      @$('.pack-select').width($("#width_tmp").html(a.levelPack.name).width() + 25)
-      @$('.level-select').width($("#width_tmp").html(a.level.name).width() + 25)
+      @$('.pack-select').width($("#width_tmp").html(a.levelPack.name).width() + 30)
+      @$('.level-select').width($("#width_tmp").html(a.level.name).width() + 30)
 
     _updateGoalStatus: ->
       a = @boardModel.attributes

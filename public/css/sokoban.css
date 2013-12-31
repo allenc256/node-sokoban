@@ -4,11 +4,9 @@ body {
 }
 
 select {
-  background-color : transparent;
   font-family      : 'Roboto';
   font-size        : 100%;
   outline          : 0;
-  border           : 0;
 }
 
 /* http://www.cssbuttongenerator.com/ */
@@ -48,9 +46,6 @@ button {
   text-decoration                    :none;
   text-align                         :center;
   text-shadow                        :1px 1px 0px #ffffff;
-}
-button:hover {
-  font-weight: bold;
 }
 
 /* http://stackoverflow.com/questions/826782*/
