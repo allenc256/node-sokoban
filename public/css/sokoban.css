@@ -1,0 +1,157 @@
+body {
+  font-family : 'Roboto';
+  font-size   : 14px;
+}
+
+select {
+  background-color : transparent;
+  font-family      : 'Roboto';
+  font-size        : 100%;
+  outline          : 0;
+  border           : 0;
+}
+
+/* http://www.cssbuttongenerator.com/ */
+button {
+  cursor                             : pointer;
+  outline                            : 0;
+  -moz-box-shadow                    : 0px 1px 5px 0px #888;
+  -webkit-box-shadow                 : 0px 1px 5px 0px #888;
+  box-shadow                         : 0px 1px 5px 0px #888;
+  background                         :-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #eee), color-stop(1, #aaa) );
+  background                         :-moz-linear-gradient( center top, #eee 5%, #aaa 100% );
+  filter                             :progid:DXImageTransform.Microsoft.gradient(startColorstr='#eee', endColorstr='#aaa');
+  background-color                   :#ededed;
+  -webkit-border-top-left-radius     :6px;
+  -moz-border-radius-topleft         :6px;
+  border-top-left-radius             :6px;
+  -webkit-border-top-right-radius    :6px;
+  -moz-border-radius-topright        :6px;
+  border-top-right-radius            :6px;
+  -webkit-border-bottom-right-radius :6px;
+  -moz-border-radius-bottomright     :6px;
+  border-bottom-right-radius         :6px;
+  -webkit-border-bottom-left-radius  :6px;
+  -moz-border-radius-bottomleft      :6px;
+  border-bottom-left-radius          :6px;
+  text-indent                        :0;
+  border                             :1px solid #555;
+  display                            :inline-block;
+  color                              :#000;
+  font-family                        :'Roboto';
+  font-weight                        :normal;
+  font-style                         :normal;
+  height                             :32px;
+  line-height                        :28px;
+  padding-left                       :15px;
+  padding-right                      :15px;
+  text-decoration                    :none;
+  text-align                         :center;
+  text-shadow                        :1px 1px 0px #ffffff;
+}
+button:hover {
+  font-weight: bold;
+}
+
+/* http://stackoverflow.com/questions/826782*/
+.app :not(.level-status) {
+  -webkit-touch-callout : none;
+  -webkit-user-select   : none;
+  -khtml-user-select    : none;
+  -moz-user-select      : none;
+  -ms-user-select       : none;
+  user-select           : none;
+}
+
+.title {
+  position    : absolute;
+  top         : -5px;
+  left        : 15px;  
+  font-family : 'Pacifico',cursive;
+  font-size   : 60px; 
+  text-shadow : 0px 2px 4px #888;
+  color       : #222;
+  z-index     : 1;
+}
+
+.menu {
+  position : absolute;
+  top      : 20px;
+  right    : 20px;
+  z-index  : 100;
+}
+
+.holder-outer1 {
+  display  : table;
+  position : absolute;
+  width    : 100%;
+  height   : 100%;
+  top      : 0;
+  left     : 0;
+  z-index  : 0;
+}
+
+.holder-outer2 {
+  display        : table-cell;
+  vertical-align : middle;
+  z-index        : 0;
+}
+
+.holder {
+  margin-left  : auto;
+  margin-right : auto
+}
+
+.board {
+  position : relative;
+}
+
+.instructions {
+  padding-top  : 25px;
+  width        : 500px;
+  text-align   : center;
+  margin-left  : auto;
+  margin-right : auto
+}
+
+.goals-status {
+  position : absolute;
+  left     : 20px;
+  bottom   : 10px;
+}
+
+.level-status {
+  position   : absolute;
+  right      : 20px;
+  bottom     : 10px;
+  text-align : right;
+  z-index    : 1;
+}
+
+.finished-dialog-text {
+  font-family    : 'Pacifico',cursive;
+  font-size      : 40px; 
+  text-shadow    : 0px 2px 4px #888;
+  color          : #222;
+  padding-bottom : 10px;
+}
+
+.finished-dialog-remarks {
+  padding-bottom : 15px;
+}
+
+.finished-dialog {
+  width            : 275px;
+  background-color : #fff;
+  text-align       : center;
+  padding-top      : 5px;
+  padding-bottom   : 15px;
+  box-shadow       : 0px 2px 7px 0px #888;
+  border           : 1px solid #000;
+  display          : none;
+  z-index          : 201;
+}
+
+#width_tmp {
+  display: none;
+}

@@ -1,0 +1,18 @@
+<b>Set:</b>
+<select class="pack-select">
+{{#each packs}}
+<option {{#if selected}}selected{{/if}}>{{name}}</option>
+{{/each}}
+</select>
+&nbsp;&nbsp;
+<b>Level:</b>
+<select class="level-select">
+{{#each levels}}
+<option {{#if selected}}selected{{/if}}>{{name}}</option>
+{{/each}}
+</select>
+{{#if author}}
+&nbsp;&nbsp;
+<b>Author:</b> {{author}}
+{{/if}}
+<span id="width_tmp"></span>

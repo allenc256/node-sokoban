@@ -1,0 +1,16 @@
+{
+  "name" : "sokoban",
+  "dependencies": {
+    "backbone"                  : "~1.1.0",
+    "handlebars"                : "~1.2.0",
+    "jquery"                    : "~2.0.3",
+    "lodash"                    : "~2.4.1",
+    "q"                         : "~0.9.7",
+    "requirejs"                 : "~2.1.9",
+    "require-handlebars-plugin" : "~0.7.0" 
+  },
+  "devDependencies": {
+    "chai"                      : "~1.8.1",
+    "mocha"                     : "~1.16.2"
+  }
+}
