@@ -41,6 +41,7 @@ parsePack = (lines) ->
   }
 
 loadPack = (file) ->
+  file = path.normalize(file)
   Q.nfcall(fs.readFile, file, 'utf8')
   .then (s) ->
     winston.info("Loading pack '#{file}'")
