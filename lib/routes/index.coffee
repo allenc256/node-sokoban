@@ -1,8 +1,13 @@
 module.exports = (app) ->
-  app.get '/', (req, res) ->
-    res.render('index')
+  app.configure 'development', ->
+    app.get '/', (req, res) ->
+      res.render('index', { 'data-main': 'js/index.js' })
 
-  app.get '/test', (req, res) ->
-    res.render('test')
+    app.get '/test', (req, res) ->
+      res.render('test')
+
+  app.configure 'production', ->
+    app.get '/', (req, res) ->
+      res.render('index', { 'data-main': 'js/index.min.js' })
 
   require('./api')(app)

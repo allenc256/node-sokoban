@@ -1,4 +1,4 @@
 *.log
-compiled/
+build/
 node_modules/
 bower_components/

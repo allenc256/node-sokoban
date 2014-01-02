@@ -8,7 +8,8 @@
   <link href='css/sokoban.css' rel='stylesheet' type='text/css'>
 </head>
 <body>
-  <script data-main="js/index.js" src="js/lib/requirejs/require.js"></script>
+  {{! TODO: remove require.js dependency in optimized builds (using almond). }}
+  <script data-main="{{data-main}}" src="js/lib/requirejs/require.js"></script>
   <div class="app"></div>
 </body>
 </html>
