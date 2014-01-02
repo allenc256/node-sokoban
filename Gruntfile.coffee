@@ -1,3 +1,12 @@
+# Optimization
+# ============
+
+# This gruntfile defines an "optimize" task which produces optimized 
+# javascript for the entire app, all squished into "build/js/index.min.js".
+# The server can be configured to serve the optimized js by setting 
+# NODE_ENV=production first (note however that you must run the grunt
+# optimize task before doing this).
+
 module.exports = (grunt) ->
   grunt.initConfig({
     clean:
