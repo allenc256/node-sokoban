@@ -48,7 +48,7 @@ module.exports = (grunt) ->
           baseUrl        : 'build/optimize/'
           mainConfigFile : "build/optimize/js/require-conf.js",
           out            : "build/js/index.min.js"
-          name           : 'js/app'
+          name           : 'js/index'
   })
 
   grunt.loadNpmTasks('grunt-contrib-clean')

@@ -1,3 +1,6 @@
+# RequireJS config. This is factored out into a separate file so that 
+# the "/test" page can depend on it.
+
 requirejs.config {
   baseUrl: ''
   paths: {
