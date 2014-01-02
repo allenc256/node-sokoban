@@ -19,7 +19,10 @@
     "winston"               : "0.7.x"
   },
   "devDependencies" : {
-    "mocha"         : "1.16.x",
-    "node-dev"      : "2.1.x"
+    "grunt"                   : "0.4.x",
+    "grunt-contrib-coffee"    : "0.8.x",
+    "grunt-contrib-requirejs" : "0.4.x",
+    "mocha"                   : "1.16.x",
+    "node-dev"                : "2.1.x"
   }
 }

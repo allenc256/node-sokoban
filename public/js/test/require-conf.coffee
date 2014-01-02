@@ -1,11 +1,11 @@
 # Additional dependencies needed by tests.
 requirejs.config {
   paths: {
-    'lib/chai'  : 'lib/chai/chai'
-    'lib/mocha' : 'lib/mocha/mocha'
+    'js/lib/chai'  : 'js/lib/chai/chai'
+    'js/lib/mocha' : 'js/lib/mocha/mocha'
   }
   shim: {
-    'lib/mocha' : {
+    'js/lib/mocha' : {
       exports : 'mocha'
     }
   }

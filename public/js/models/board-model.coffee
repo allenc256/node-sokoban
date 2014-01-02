@@ -1,6 +1,6 @@
 define [
-  'lib/lodash'
-  'lib/backbone'
+  'js/lib/lodash'
+  'js/lib/backbone'
 ], (
   _
   Backbone

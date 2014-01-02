@@ -1,5 +1,5 @@
 define [
-  'lib/backbone'
+  'js/lib/backbone'
 ], (
   Backbone
 ) ->

@@ -1,6 +1,6 @@
 define [
-  'lib/chai'
-  'models/board-model'
+  'js/lib/chai'
+  'js/models/board-model'
 ], (
   chai
   BoardModel

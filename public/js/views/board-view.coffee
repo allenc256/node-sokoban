@@ -1,7 +1,7 @@
 define [
-  'lib/lodash'
-  'lib/backbone'
-  'views/tile-view'
+  'js/lib/lodash'
+  'js/lib/backbone'
+  'js/views/tile-view'
 ], (
   _
   Backbone

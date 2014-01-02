@@ -1,21 +1,21 @@
 requirejs.config {
-  baseUrl: '/js'
+  baseUrl: ''
   paths: {
-    'hbs'          : 'lib/require-handlebars-plugin/hbs'
-    'lib/lodash'   : 'lib/lodash/dist/lodash.compat'
-    'lib/jquery'   : 'lib/jquery/jquery'
-    'lib/backbone' : 'lib/backbone/backbone'
-    'lib/q'        : 'lib/q/q'
+    'hbs'             : 'js/lib/require-handlebars-plugin/hbs'
+    'js/lib/lodash'   : 'js/lib/lodash/dist/lodash.compat'
+    'js/lib/jquery'   : 'js/lib/jquery/jquery'
+    'js/lib/backbone' : 'js/lib/backbone/backbone'
+    'js/lib/q'        : 'js/lib/q/q'
   }
   shim: {
-    'lib/backbone' : {
-      deps    : ['lib/lodash', 'lib/jquery']
+    'js/lib/backbone' : {
+      deps    : ['js/lib/lodash', 'js/lib/jquery']
       exports : 'Backbone'
     }
-    'lib/lodash' : {
+    'js/lib/lodash' : {
       exports : '_'
     }
-    'lib/jquery' : {
+    'js/lib/jquery' : {
       exports: '$'
     }
   }

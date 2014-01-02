@@ -1,8 +1,8 @@
 define [
-  'lib/backbone'
-  'lib/jquery'
-  'lib/lodash'
-  'lib/q'
+  'js/lib/backbone'
+  'js/lib/jquery'
+  'js/lib/lodash'
+  'js/lib/q'
 ], (
   Backbone
   $

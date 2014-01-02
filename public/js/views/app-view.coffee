@@ -1,10 +1,10 @@
 define [
-  'lib/lodash'
-  'lib/backbone'
-  'models/board-model'
-  'views/board-view'
-  'hbs!/templates/app'
-  'hbs!/templates/levels'
+  'js/lib/lodash'
+  'js/lib/backbone'
+  'js/models/board-model'
+  'js/views/board-view'
+  'hbs!templates/app'
+  'hbs!templates/levels'
 ], (
   _
   Backbone
