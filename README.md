@@ -13,7 +13,7 @@ These instructions assume you have node.js installed.
 
 #### Demo
 
-A demo of the app is hosted at http://node-sokoban.heroku.com/ (screenshot below):
+A demo of the app is hosted at http://node-sokoban.herokuapp.com/ (screenshot below):
 
 ![screenshot](https://raw.github.com/allenc256/node-sokoban/master/screenshot.png)
 
