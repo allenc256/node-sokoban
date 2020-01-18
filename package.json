@@ -7,7 +7,7 @@
     "postinstall" : "./node_modules/bower/bin/bower install"
   },
   "dependencies": {
-    "bower"                 : "1.2.x",
+    "bower"                 : "1.8.x",
     "coffee-errors"         : "0.8.5",
     "coffee-script"         : "1.6.x",
     "connect-coffee-script" : "0.1.x",
